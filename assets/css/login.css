@@ -1,0 +1,50 @@
+html,
+bode {
+  margin: 0;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  background: url(../images/login_bg.jpg) no-repeat center;
+  background-size: cover;
+}
+.loginAndRegBox {
+  width: 400px;
+  height: 310px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.titleBox {
+  height: 60px;
+  background: url(/codeTest/assets/images/login_title.png) no-repeat center;
+}
+.reg-box {
+  /* 默认隐藏，点击切换 */
+  display: none;
+}
+.layui-form {
+  /* 用padding把通栏往里收一下 */
+  padding: 0 30px;
+}
+.links {
+  display: flex;
+  /* 居最右 */
+  justify-content: flex-end;
+}
+.links a {
+  font-size: 12px;
+}
+.layui-form-item {
+  position: relative;
+}
+.layui-input {
+  padding-left: 32px;
+}
+/* 子绝父相，定位到输入框内部去，左边留padding */
+.layui-icon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
